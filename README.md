@@ -1,7 +1,7 @@
 ### Background
 This a demostration, that if a docker is run with the privileged option, and if it performs a flush on the iptables, it will delete all iptables rules including those come with Docker.
 
-### iptables come with Docker
+### The iptables rule come with Docker
 ```bash
 user@machine:~$ sudo iptables -S
 -P INPUT ACCEPT
