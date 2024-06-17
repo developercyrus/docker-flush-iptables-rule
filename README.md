@@ -1,5 +1,5 @@
 ### Background
-This a demostration, that if a docker is run with the privileged option, and it perform a flush on the iptables, it will delete all iptables rules including those come with Docker.
+This a demostration, that if a docker is run with the privileged option, and if it performs a flush on the iptables, it will delete all iptables rules including those come with Docker.
 
 ### Run by docker 
 ```bash
