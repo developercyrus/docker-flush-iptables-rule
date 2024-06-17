@@ -32,3 +32,8 @@ sudo docker run --rm \
   --network host \
   developercyrus/flush-iptables-rules
 ```
+
+### Restore the iptables rule
+```bash
+sudo systemclt restart docker
+```
